@@ -2,8 +2,8 @@ a=input()
 b="aeiou"
 c="bcdfghjklkmnpqrstvwxyz"
 if(a in b):
-    print("vowel")
+    print("Vowel")
 elif(a in c):
-    print("consonant")
+    print("Consonant")
 else:
     print("invalid")
