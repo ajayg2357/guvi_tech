@@ -1,6 +1,6 @@
 a=input()
 b="abcdefghijklmnopqrstuvsxyz"
 if(a in b):
-    print("Yes")
+    print("Alphabet")
 else:
     print("No")
