@@ -1,10 +1,12 @@
-a=int(input())
-b=int(input())
-c=0
+a,b= input().split()
+a=int(a)
+b=int(b)
+k=[]
 for i in range(a,b+1):
-    for j in range(2,i):
+    c=0
+    for j in range(1,b+1):
         if(i%j==0):
-            break
-    else:
-        c=c+1
-print(c)
+            c=c+1
+    if(c==2):
+        k.append(i)
+print(len(k))
