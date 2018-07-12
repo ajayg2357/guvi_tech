@@ -1,6 +1,6 @@
 a=["sunday","monday","tuesday","wednesday","thursday","friday","saturday"]
 b=input()
 if(b=="sunday"):
-    print("yes")
+    print("Yes")
 else:
-    print("no")
+    print("No")
