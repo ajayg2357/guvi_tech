@@ -1,5 +1,5 @@
-a=int(input())
-fact=1
-for i in range(1,a+1):
-    fact=fact*i
-print(fact)
+x=int(input())
+fac=1
+for k in range(1,x+1):
+    fac=fac*k
+print(fac)
